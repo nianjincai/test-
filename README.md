@@ -2,6 +2,7 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 
+
 # 假設的原始浮動車輛 GPS 數據 (約每分鐘一筆)
 data = {
     'timestamp': pd.to_datetime(['2025-12-16 08:00:15', '2025-12-16 08:00:45', '2025-12-16 08:01:30',
