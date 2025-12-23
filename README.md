@@ -42,3 +42,5 @@ print(df_raw.head())
 
 print("\n--- 聚合後數據 (每小時平均速度) ---")
 print(df_hourly_avg)
+
+
